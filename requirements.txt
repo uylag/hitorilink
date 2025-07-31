@@ -1,0 +1,8 @@
+aiogram
+colorama
+environs
+typing
+sqlalchemy
+logging
+asyncpg
+sentence_transformers

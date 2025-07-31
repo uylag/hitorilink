@@ -1,0 +1,9 @@
+README.md
+.env*
+__pycache__
+__pycache__/
+.venv
+.vscode
+stub.txt
+learn*
+test*
