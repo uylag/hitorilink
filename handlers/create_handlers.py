@@ -295,7 +295,7 @@ async def send_summary(message: types.Message, state: fsm.context.FSMContext):
     summary = (
         f"Ваша анкета:\n"
         f"{name}, "
-        f"{age_required}"
+        f"{age_required}\n"
         # f"±{age_range}\n"
         f"{description}\n\n"
         f"Интересы: {', '.join(interests) if interests else 'Не указаны'}\n\n"

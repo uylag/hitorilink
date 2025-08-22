@@ -16,7 +16,7 @@ class User(DBBase):
         CheckConstraint("age_required >= 18 AND age_required <= 120", name="check_age_valid"),
         # CheckConstraint("gender_search IN (1, 2, 3)", name="check_gender_search"),
         CheckConstraint("rating >= 0 AND rating <= 10", name="check_rating_range"),
-        CheckConstraint("char_length(name) > 1", name="name_is_valid"),
+        CheckConstraint("char_length(name) >= 1", name="name_is_valid"),
     )
 
     id: Mapped[int] = mapped_column(

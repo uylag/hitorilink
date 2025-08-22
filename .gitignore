@@ -2,8 +2,12 @@ README.md
 .env*
 __pycache__
 __pycache__/
-.venv
-.vscode
+.venv/
+.vscode/
 stub.txt
 learn*
 test*
+*.sql
+*.log
+prompt.txt
+log.log
